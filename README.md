@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/azukiapp/homebrew-azk.svg)](https://travis-ci.org/azukiapp/homebrew-azk)
+
 # Homebrew azk
 
 A repository with all formulas related to install [azk][azk].
@@ -11,22 +13,22 @@ A repository with all formulas related to install [azk][azk].
 Azk requires [VirtualBox][virtualbox_dl], using [Homebrew Cask][homebrew_cask]? It makes installing VirtualBox super easy!
 
 ```sh
-brew install caskroom/cask/brew-cask
-brew cask install virtualbox --appdir=/Applications
+$ brew install caskroom/cask/brew-cask
+$ brew cask install virtualbox --appdir=/Applications
 ```
 
 And now tap and this repository:
 
 ```sh
-brew install azukiapp/azk/azk
+$ brew install azukiapp/azk/azk
 ```
 
 ## Uninstall tap
 
 ```sh
-rm -rf /usr/local/Library/Taps/azukiapp-azk
-brew cleanup -s --force
-brew prune
+$ rm -rf /usr/local/Library/Taps/azukiapp-azk
+$ brew cleanup -s --force
+$ brew prune
 ```
 
 ## License
