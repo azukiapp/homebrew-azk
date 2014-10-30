@@ -3,7 +3,7 @@ require "formula"
 class Azk < Formula
   homepage "http://azk.io"
   url "http://repo.azukiapp.com/mac/azk_0.6.0.tar.gz"
-  sha256 "4c31899f46ff7255174426bfd6206d8b882bd5b5bac9b4d5b24e61d52e935b2b"
+  sha256 "435b2cf6b075f742a78ee90d32f9488b93736445416323b74714ff9b633246ef"
 
   depends_on :macos => :mountain_lion
   depends_on :arch => :x86_64
