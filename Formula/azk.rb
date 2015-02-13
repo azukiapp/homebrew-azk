@@ -7,7 +7,6 @@ class Azk < Formula
 
   depends_on :macos => :mountain_lion
   depends_on :arch => :x86_64
-  depends_on "unfs3"
 
   def install
     prefix.install Dir['*']
