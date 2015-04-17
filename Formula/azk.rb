@@ -3,7 +3,7 @@ require "formula"
 class Azk < Formula
   homepage "http://azk.io"
   url "http://repo.azukiapp.com/mac/azk_0.12.0.tar.gz"
-  sha256 "cb34dc85efdbde5007174cb1a97fca9fe3b149d8f22fd50d4776656faa7fb4ac"
+  sha256 "b31eb64a0cb7c92b6bdd47e10bd6a797dd0a8f80f101ba75b0336c12f503eee2"
 
   depends_on :macos => :mountain_lion
   depends_on :arch => :x86_64
@@ -14,4 +14,3 @@ class Azk < Formula
     prefix.install Dir['.dependencies']
   end
 end
-
