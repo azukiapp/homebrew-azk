@@ -2,9 +2,9 @@ require "formula"
 
 class Azk < Formula
   homepage "http://azk.io"
-  url "http://repo.azukiapp.com/mac/azk_0.14.0.tar.gz"
-  version "0.14.0"
-  sha256 "66caf512a5221ef16878f7a77bda89ca12edfdcb85e6178869be9e3b67d69b63"
+  url "http://repo.azukiapp.com/mac/azk_0.14.1.tar.gz"
+  version "0.14.1"
+  sha256 "3f8ee46ee3be55304f433b1ded20e2303f9150a81b14171884818e921edf55ba"
   
   depends_on :macos => :mountain_lion
   depends_on :arch => :x86_64
