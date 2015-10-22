@@ -2,9 +2,9 @@ require "formula"
 
 class AzkRc < Formula
   homepage "http://azk.io"
-  url "http://repo-stage.azukiapp.com/mac/azk_0.14.0-rc.3+20150615.tar.gz"
-  version "0.14.0-rc.3+20150615"
-  sha256 "ea9c55e7907427aceec6d743d6d69222aee58bcebe84ff0a29fe5662cc60074b"
+  url "http://repo-stage.azukiapp.com/mac/azk_0.16.0-rc.1+20151021.tar.gz"
+  version "0.16.0-rc.1+20151021"
+  sha256 "8b09d7744f36b27aef76bc6265376a390c4a90269a451c05885f8a700073a73e"
   
   conflicts_with 'azukiapp/azk/azk', :because => 'installation of azk in path'
   
