@@ -2,7 +2,7 @@ require "formula"
 
 class AzkRc < Formula
   homepage "http://azk.io"
-  url "http://repo-stage.azukiapp.com/mac/azk_0.16.0-rc.1+20151021.tar.gz"
+  url "http://repo.azukiapp.com/mac/azk_0.16.0-rc.1+20151021.tar.gz"
   version "0.16.0-rc.1+20151021"
   sha256 "8b09d7744f36b27aef76bc6265376a390c4a90269a451c05885f8a700073a73e"
   
