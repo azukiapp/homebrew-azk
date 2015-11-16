@@ -4,7 +4,7 @@ class Azk < Formula
   homepage "http://azk.io"
   url "http://repo-stage.azukiapp.com/mac/azk_0.16.2.tar.gz"
   version "0.16.2"
-  sha256 "af3ff0ddbaa5fb2712d30bb1f6ff0514a28759f7faf154d62fa96604877c324b"
+  sha256 "72092e22c439f387ba112325de8944dcddade9b24395c49a608903bf543d48d2"
   
   depends_on :macos => :mountain_lion
   depends_on :arch => :x86_64
