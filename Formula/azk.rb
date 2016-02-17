@@ -30,7 +30,7 @@ class Azk < Formula
   end
 
   def post_install
-    system 'rm -Rf ./package' if build.head?
+    rmtree './package' if build.head?
   end
 
   test do
