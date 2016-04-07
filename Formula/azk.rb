@@ -22,7 +22,7 @@ class Azk < Formula
     else
       items = ['*']
     end
-    items += %w{ .dependencies .nvmrc }
+    items += %w{ .dependencies .nvmrc .package-envs }
 
     items.each do |item|
       prefix.install Dir["#{items_path}/#{item}"]
@@ -37,3 +37,4 @@ class Azk < Formula
     system "azk", "version"
   end
 end
+
